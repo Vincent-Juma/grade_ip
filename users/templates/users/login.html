@@ -1,4 +1,4 @@
-{% extends "blog/base.html" %}
+{% extends "project/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
   <div class="content-sction">
@@ -14,7 +14,7 @@
     </form>
     <div class="border-top pt-3">
         <small class="text-muted">
-            Do you need an account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
+            Need an account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
         </small>
     </div>
   </div>
